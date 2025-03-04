@@ -8,27 +8,39 @@
     <link rel="icon" href="assets/fav.png" type="image/png" />
   </head>
   <body>
-    <nav class="outer-col-1">Nav</nav>
+    <nav class="outer-col-1">
+        <div class="nav-logo">Aditya Sharma's Website</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#cards">Gallery</a></li>
+            <li><a href="#flex-cards">Blog</a></li>
+            <li><a href="#media-container">Media</a></li>
+        </ul>
+    </nav>
     <div class="outer-col-2">
-      <header>Header</header>
+        <header>
+            <h1>Welcome to Aditya's Website</h1>
+            <p>Discover amazing Me</p>
+        </header>
+
       <div class="inner-row">
         <div class="inner-col">
           <article>
             <h2>Photo Gallery</h2>
             <p>Added by Aditya Sharma</p>
-            <section class="cards">
+            <section class="cards" id="cards">
               <img src="assets/23m.jpg" alt="Sample photo" width="25%"/>
               <img src="assets/24m.jpg" alt="Sample photo" width="25%"/>
               <img src="assets/22m.jpg" alt="Sample photo" width="25%"/>
               <img src="assets/28m.jpg" alt="Sample photo" width="25%"/>
               <img src="assets/25m.jpg" alt="Sample photo" width="25%"/>
-              <img src="assets/30m.jpg" alt="Sample photo"width="25%" />
+              <img src="assets/30m.jpg" alt="Sample photo" width="25%"/>
             </section>
-            <section class="flex-cards">
+            <section class="flex-cards" id="flex-cards">
                 <h2 class="section-title">Featured Flex Cards</h2>
                 <div class="flex-container">
                     <article class="card">
-                        <img src="assets/22m.jpg" alt="Sample photo">
+                        <img src="assets/23m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 1</h3>
                             <p>Aditya's Dream Place</p>
@@ -37,7 +49,7 @@
                     </article>
             
                     <article class="card">
-                        <img src="assets/28m.jpg" alt="Sample photo">
+                        <img src="assets/24m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 2</h3>
                             <p>Aditya's Dream Destination</p>
@@ -46,7 +58,7 @@
                     </article>
             
                     <article class="card">
-                        <img src="assets/30m.jpg" alt="Sample photo">
+                        <img src="assets/22m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 3</h3>
                             <p>Aditya's Palace.</p>
@@ -55,7 +67,7 @@
                     </article>
             
                     <article class="card">
-                        <img src="assets/23m.jpg" alt="Sample photo">
+                        <img src="assets/28m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 4</h3>
                             <p>Aditya's Dream Journey</p>
@@ -81,10 +93,46 @@
                         </div>
                     </article>
                 </div>
+            </section> 
+
+            <section class="media-container" id="media-container">
+                <h2 class="section-title">Featured Media Objects</h2>
+            
+                <div class="media">
+                    <img class="media-object" src="assets/24m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">Best Developer</h3>
+                        <p>Aditya Sharma is one of the best developers a company can get </p>
+                    </div>
+                </div>
+            
+                <div class="media">
+                    <img class="media-object" src="assets/26m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">5X Microsoft Certified</h3>
+                        <p>Aditya Sharma have passed AI900 of Microsoft and Google Cloud as well</p>
+                    </div>
+                </div>
+            
+                <div class="media">
+                    <img class="media-object" src="assets/29m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">Down to hell</h3>
+                        <p>Down to hell :) </p>
+                    </div>
+                </div>
             </section>
             
+            
           </article>
-          <footer>Footer</footer>
+          <footer>
+            <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/aditya-sharma-825717232/" target="_blank">Privacy Policy</a></li>
+                <li><a href="https://www.linkedin.com/in/aditya-sharma-825717232/" target="_blank">Terms of Service</a></li>
+                <li><a href="https://www.linkedin.com/in/aditya-sharma-825717232/" target="_blank">Contact</a></li>
+            </ul>
+            <p>&copy; 2025 Aditya's Website. All Rights Reserved.</p>
+        </footer>
         </div>
         <!-- <aside>Aside</aside> -->
       </div>
